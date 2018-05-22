@@ -63,66 +63,8 @@
 <div class="container">
     <div class="row">
         <form action="">
-        <div class="col-lg-6">
-            <div class="panel-group">
-                <div class="panel panel-default">
-                    <div class="panel-heading">مشخصات خریدار</div>
-                    <div class="panel-body">
 
-                        <div class="form-group">
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="name" placeholder="نام و نام خانوادگی">
-                            </div>
-                            <label for="name" class="col-sm-4 control-label">نام شخص حقیقی / حقوقی</label>
-                        </div>
-                        <hr>
-                        <div class="form-group">
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="ostan" placeholder="استان">
-                            </div>
-                            <label for="ostan" class="col-sm-4 control-label">نشانی کامل / استان : </label>
-                        </div>
-                        <hr><hr>
-                        <div class="form-group">
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="shahrestan" placeholder="شهرستان">
-                            </div>
-                            <label for="shahrestan" class="col-sm-4 control-label">شهرستان : </label>
-                        </div>
-                        <hr><hr>
-                        <div class="form-group">
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="shahr" placeholder="شهر">
-                            </div>
-                            <label for="shahr" class="col-sm-4 control-label">شهر : </label>
-                        </div>
-                        <hr><hr>
-                        <div class="form-group">
-                            <div class="col-sm-8">
-                                <input type="text" class="form-control" id="posti" placeholder="کد پستی">
-                            </div>
-                            <label for="posti" class="col-sm-4 control-label">کد پستی ۱۰ رقمی : </label>
-                        </div>
-                        <hr><hr>
-                        <div class="form-group">
-                            <div class="col-sm-8">
-                            <textarea class="form-control" rows="5" id="address"></textarea>
-                            </div>
-                            <label for="address" class="col-sm-4 control-label" >نشانی : </label>
-                        </div>
-
-
-
-
-
-                    </div>
-                    <div class="panel-footer">
-                        footer
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6">
+        <!--<div class="col-lg-6">
 
             <div class="panel-group">
                 <div class="panel panel-default">
@@ -135,7 +77,80 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
+            <div class="col-lg-12">
+                <div class="panel-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">مشخصات خریدار</div>
+                        <div class="panel-body">
+
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="name" placeholder="نام و نام خانوادگی">
+                                </div>
+                                <label for="name" class="col-sm-4 control-label">نام شخص حقیقی / حقوقی</label>
+                            </div>
+                            <hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="ostan" placeholder="استان">
+                                </div>
+                                <label for="ostan" class="col-sm-4 control-label">نشانی کامل / استان : </label>
+                            </div>
+                            <hr><hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="shahrestan" placeholder="شهرستان">
+                                </div>
+                                <label for="shahrestan" class="col-sm-4 control-label">شهرستان : </label>
+                            </div>
+                            <hr><hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="shahr" placeholder="شهر">
+                                </div>
+                                <label for="shahr" class="col-sm-4 control-label">شهر : </label>
+                            </div>
+                            <hr><hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="telephone" placeholder="تلفن">
+                                </div>
+                                <label for="telephone" class="col-sm-4 control-label">تلفن ثابت : </label>
+                            </div>
+                            <hr><hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="mobile" placeholder="تلفن همراه">
+                                </div>
+                                <label for="mobile" class="col-sm-4 control-label">تلفن همراه : </label>
+                            </div>
+                            <hr><hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <input type="text" class="form-control" id="posti" placeholder="کد پستی">
+                                </div>
+                                <label for="posti" class="col-sm-4 control-label">کد پستی ۱۰ رقمی : </label>
+                            </div>
+                            <hr><hr>
+                            <div class="form-group">
+                                <div class="col-sm-8">
+                                    <textarea class="form-control" placeholder="آدرس " rows="5" id="address"></textarea>
+                                </div>
+                                <label for="address" class="col-sm-4 control-label" >نشانی : </label>
+                            </div>
+
+
+
+
+
+                        </div>
+                        <div class="panel-footer">
+                            footer
+                        </div>
+                    </div>
+                </div>
+            </div>
         </form>
     </div>
 
